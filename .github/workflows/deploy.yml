@@ -4,6 +4,9 @@ jobs:
   hello:
     runs-on: ubuntu-22.04
     steps:
-      - name: Hello
-        run: echo "Welcome to GHA"
+      - name: Hello steps
+        run: |
+           echo "This is line one"
+           echo "This is line two"
+           
       
